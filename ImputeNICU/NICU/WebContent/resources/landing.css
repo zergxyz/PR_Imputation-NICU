@@ -1,0 +1,614 @@
+body{
+    text-align:center;
+    font-family:Arial;
+    margin:0;
+    padding:0;
+    font-size:15px;
+    color:#666;
+
+    background: #fff;
+    min-height:1200px;
+}
+	
+ .slogan{
+    margin:-15px auto 70px;
+    position:relative;
+    left:7px;
+    width:360px;
+    height:47px;
+
+ }
+
+#wrapper{
+    background:none;
+    margin:0;
+    padding:0;
+    border:none;
+    width:100%;
+}
+
+a, a:visited{
+    color:#F0F0F8;
+    text-decoration:underline;
+}
+
+#passwordLink{
+    display:block;
+    margin-bottom:10px;
+    font-family:arial;
+    font-size:12px;
+    color:#333;
+    text-decoration:underline;
+}
+
+.main #passwordLink{
+    color:#ccc;
+    text-align:center;
+}
+
+#header {
+    padding:60px 0 0px;
+}
+
+.logo{
+    margin:0;
+    text-align: center;
+}
+	
+.logo a{
+    width: 484px;
+    height:107px;
+    
+    color:#333;
+    border:none;
+    display:inline-block;
+    margin:10px 0 0 0;
+}
+
+h1.logo a img{
+    border:none;
+}
+
+h1.logo span{
+    color:#666;
+}
+	
+div.pitch p{
+    font-size: 1.4em;
+    left: 50%;
+    margin:0 0 0 -11em;
+    position: relative;
+    width: 22em;
+    text-align:center;
+}
+
+#billboard{
+    padding:0;
+    margin-bottom:60px;
+}
+
+#billboard > div{
+    margin:auto;
+    position:relative;
+}
+
+a.demo.link, a.demo.link:visited{
+    color:#0056A7;
+    text-decoration:underline;
+    font-style:italic;
+    font-size:1em;
+}
+		
+ div.pitch p a:hover{
+    color:#003364;
+}
+	
+ div#clickToStart{
+    margin:40px 0px 40px;
+    font-size:2.5em;
+}
+
+ a.register{
+    background:#0056A7;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    -moz-border-radius:30px; 
+    -webkit-border-radius:30px; 
+    -khtml-border-radius:30px;
+    border-radius:30px;
+    behavior:url(/media/css/border-radius.htc);
+}
+
+ a.login{
+    color:#fff;
+}
+
+#loginBar{
+    padding:5px 0;
+    background:#0056A7;
+    color:#ccf;
+}
+	
+ a.login:hover{
+    color:#ddd;
+}
+		
+ a.register:hover{
+    background: #003364;
+    text-decoration:underline;
+}
+	
+ a.register h2{
+    font-size:3em;
+    font-weight:normal;
+}
+	
+ a.register h3{
+    font-size:1.3em;
+    font-weight:normal;
+}
+		
+form{
+    display:inline-block;
+    text-align:left;
+    border:1px solid #ccc;
+    margin:0;
+    padding:5px 20px;
+    -moz-border-radius:15px; 
+    -webkit-border-radius:15px; 
+    border-radius:15px;
+    position:relative;
+}
+
+.login form{
+    margin-bottom:20px;
+}
+
+#register, .main{
+    /* Shadow */
+    -webkit-box-shadow:0px 10px 20px #123;
+    -moz-box-shadow: 0px 10px 20px #123;
+    box-shadow:0px 10px 20px #123;
+    /* Gradient */
+    background:#234;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#223344', endColorstr='#112233'); /* for IE */
+    background: -moz-linear-gradient(top,  #234,  #123); /* for firefox 3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, from(#234), to(#123)); /* for webkit browsers */
+
+    border:1px solid #333;
+
+    padding:10px 30px;
+
+    /* Needed for IE7 */
+    max-width:270px;
+}
+
+form p{
+    margin:15px 0 0 0;
+}
+
+form p label{
+    display:block;
+    color:#eee;
+    font-family:Arial;
+    font-size:12px;
+    margin-bottom:5px;
+}
+
+form p input{
+    display:block;
+    width:250px;
+    font-size:20px;
+}
+
+.main p input{
+    padding:8px;
+    border:1px solid #111;
+}
+
+form .submit, .buttonLink{
+    color: white;
+    font-size:36px;
+    padding: 10px 30px;
+    margin:15px 0 15px -2px;
+    cursor:pointer;
+
+    border:1px solid #14222f;
+    -webkit-border-radius:10px; 
+    -moz-border-radius:10px; 
+    -khtml-border-radius:10px;
+    border-radius:10px;
+    
+    font-family:Arial;
+    -webkit-box-shadow: inset 0 -4px 8px rgba(0,0,0, 0.25);
+    -moz-box-shadow: inset 0 -4px 8px rgba(0,0,0, 0.25);
+    box-shadow: inset 0 0 8px rgba(0,0,0, 0.25);    
+    /* Gradient */
+    background: #5588aa;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73a8ea', endColorstr='#003384'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#73a8ea), to(#003384)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #73a8ea, #003384); /* for firefox 3.6+ */
+}
+
+.main .submit{
+    width:100%;
+    text-align:center;
+}
+
+a.buttonLink{
+    color:white;
+    text-decoration:none;
+}
+
+.buttonLink, .small.submit{
+    padding:5px 10px;
+    font-size:20px;
+    border:2px solid #14222f;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    -khtml-border-radius:5px;
+    border-radius:5px;
+}
+
+.buttonLink{
+    position:absolute;
+    top:-100px;
+    left:100%;
+    margin-left:-95px;
+}
+
+.buttonLink.alpha{
+    position:static;
+    margin:0px;
+    top:0px;
+}
+
+ul.errorlist{
+    padding: 15px 0;
+    margin:0;
+    color:red;
+    font-family:Arial;
+    font-size:12px;
+    list-style:none;
+    position:relative;
+}
+
+.main ul.errorlist{
+    float:right;
+    position:relative;
+}
+
+.video{
+    float:right;
+    width:480px;
+    height:300px;
+    border:1px solid #666;
+    /* glow */
+    -webkit-box-shadow:0px 3px 40px #113;
+    -moz-box-shadow: 0 3px 40px #113;
+    box-shadow:0 3px 40px #113;
+
+}
+
+.video .video_image_hovered{
+    display:none;
+}
+
+.video:hover .video_image_hovered{
+    display:block;
+}
+
+.video:hover img.video_image{
+    display:none;
+}
+
+#about{
+    float:right;
+    width:375px;
+    text-align:left;
+}
+
+#about p{
+    font-family:arial;
+    font-size:12px;
+    color:#555;
+}
+
+#about strong{
+    color:#333;
+}
+
+.column{
+    margin:20px 0 0;
+    width:320px;
+    font-family:Arial;
+    color:#333;
+    float:right;
+    text-align:left;
+}
+
+.column#left{
+    margin-right:20px;
+    width:520px
+}
+
+.quotes{
+    background:#fff;
+    border:1px solid #ccc;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    /* Shadow */
+    -webkit-box-shadow:0 0 40px #bcd;
+    -moz-box-shadow: 0 0 40px #ccc;
+    box-shadow:0 10px 20px #abc;
+
+    margin-bottom:20px;
+}
+
+.section.end{
+    -moz-border-radius:0 0 10px 10px;
+    -webkit-border-bottom-left-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom:none;
+    margin-bottom:-2px;
+    min-height:15px;
+    font-size:12px;
+    font-weight:normal !important;
+    text-align:center !important;
+}
+
+#people .content{
+    max-height:832px;
+    overflow:auto;
+}
+
+.quotes .section{
+    background:#d4d6df;
+    color:#123;
+
+    padding:5px 5px 5px 20px;
+    text-align:left;
+    border-bottom:1px solid #aaa;
+    border-top:1px solid #aaa;
+    position:relative;
+    top:-1px;
+}
+
+.quotes .section:first-child{
+    -moz-border-radius:10px 10px 0 0;
+    -webkit-border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+    border-top:none;
+    top:0;
+}
+
+.quotes p.quote{
+    background-color:#fcfcfc;
+    font-size:15px;
+    text-align:left;
+    margin-bottom:20px;
+    padding:30px;
+    border-right:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    -moz-border-radius:15px; 
+    -webkit-border-radius:15px; 
+    -khtml-border-radius:15px;
+    border-radius:15px;
+}
+
+.quotes p.quote span.speaker{
+    display:block;
+    text-align:right;
+    margin-top:15px;
+    font-size:15px;
+}
+
+.tweet{
+    position:relative;
+    padding:10px 20px 10px 80px;
+    text-align:left;
+    font-size:15px;
+    border-bottom:1px solid #eee;
+    min-height:48px;
+}
+
+.tweet_content:hover, .tweet_image:hover{
+    cursor:pointer;
+    cursor:hand;
+}
+
+.tweet_image{
+    position:absolute;
+    top:10px;
+    left:20px;
+    width:48px;
+    height:48px;
+}
+
+.tweet_user_name{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+    display:block;
+    text-align:right;
+}
+
+a.tweet_user_title, .tweet_user_title{
+    font-size:12px;
+    color:#555;
+    text-align:right;
+    text-decoration:none;
+    display:block;
+}
+
+a.tweet_user_title:hover{
+    text-decoration:underline;
+}
+
+.tweet_content{
+    margin:0;
+}
+
+
+#press .tweet_image{
+    width:200px;
+    height:auto;
+    position:relative;
+    left:50%;
+    margin-left:-100px;
+    margin-bottom:20px;
+}
+
+#press .tweet{
+    padding:10px 20px;
+}
+
+
+.installButton:hover{
+    cursor:hand;
+    cursor:pointer;
+}
+
+#billboard > div, #bottom_section { /* #top_bar form,  */
+    width:860px;
+    margin:auto;
+}
+
+/* Login bar at the top of the page */
+#top_bar{
+    padding-right:20px;
+    background:#234;
+}
+
+#top_bar form{
+    width:100%;
+    padding:0;
+    float:none;
+    background:none;
+    border:none;
+    text-align:right;
+    margin:3px 0 3px;
+
+}
+
+#top_bar form p{
+    display:inline;
+    margin: 0 10px 0 0;
+    /* Needed for IE7 */
+    max-width:220px;
+}
+
+#top_bar form p label {
+    display:inline;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    padding-right: 3px;
+}
+
+#top_bar form p input {
+    display: inline;
+    width: 150px;
+    font-size: 12px;
+    border: 1px solid #AAA;
+}
+
+#top_bar form .submit{
+    display:inline-block;
+    font-size:12px;
+    padding:3px 5px;
+    margin:0;
+    color: #111;
+    -moz-border-radius:2px; 
+    -webkit-border-radius:2px; 
+    border-radius:2px;
+    border-color:#aaa;
+    font-family:Arial;
+    background: #ccc;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#aaaaaa'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#aaaaaa)); /* for webkit browsers 
+    background: -moz-linear-gradient(top, #cccccc, #aaaaaa); /* for firefox 3.6+ */
+
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0, 0.25);
+    -moz-box-shadow: inset 0 0 2px rgba(0,0,0, 0.25);
+    box-shadow: inset 0 0 2px rgba(0,0,0, 0.25);    
+
+}
+
+#top_bar #passwordLink{
+    position:absolute;
+    right:0;
+    top:100%;
+    margin-top:10px;
+}
+
+#description{
+    font-size:15px;
+    padding:20px;
+    line-height:18px;
+    color:#333;
+    margin-bottom:20px;
+}
+
+#description h2{
+    font-size:20px;
+    margin:0px 0 10px;
+    color:#123;
+}
+
+#bottomLinks{
+    padding:10px;
+    background: #234;
+    border-top:1px solid #123;
+    margin-top:20px;
+}
+
+#bottomLinks a{
+    color:#fff;
+    margin:0 10px;
+}
+
+#big_update_notice{
+    background:#333;
+    color:#fff;
+    padding:20px;
+}
+
+#update_steps{
+    margin:40px auto;
+    width:700px;
+    text-align:left;    
+}
+
+#update_steps h1{
+    margin:40px 0 5px;
+    font-size:30px;
+}
+
+.fancyButton{
+    display:inline-block;
+    border-radius:3px;
+    border:1px solid #aaa;
+    padding:5px 10px;
+    font-size:1em;
+    text-decoration:none;
+    font-style:normal;
+    color:#4f4f4f;
+    text-shadow:0 1px 0 rgba(255, 255, 255, 0.6);
+    background: #ddd;
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(1, #EDEDED), color-stop(0, #C4C4C4) );
+    background: -moz-linear-gradient( center top, #EDEDED, #C4C4C4 );
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+
+    -webkit-user-select: none; -moz-user-select: none; user-select: none;
+}
+
+.fancyButton.big{
+    padding:10px 20px;
+    font-weight:bold;
+}
+
